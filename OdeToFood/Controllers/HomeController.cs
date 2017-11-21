@@ -34,5 +34,10 @@ namespace OdeToFood.Services
             }
             return View(model);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
