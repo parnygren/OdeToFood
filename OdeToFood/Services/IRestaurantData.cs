@@ -1,9 +1,5 @@
-﻿using System;
+﻿using OdeToFood.Models;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OdeToFood.Models;
 
 namespace OdeToFood.Services
 {
@@ -12,5 +8,6 @@ namespace OdeToFood.Services
         IEnumerable<Restaurant> GetAll();
         Restaurant Get(int id);
         Restaurant Add(Restaurant restaurant);
+        Restaurant Update(Restaurant restaurant);
     }
 }
